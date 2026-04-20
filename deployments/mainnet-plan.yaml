@@ -1,0 +1,18 @@
+---
+id: 1
+name: Adryx Token - Mainnet Deployment
+network: mainnet
+stacks-node: "https://api.hiro.so"
+bitcoin-node: "http://blockstream.info"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - id: 0
+          type: contract-publish
+          data:
+            contract-name: adryx-token
+            path: contracts/adryx-token.clar
+            clarity-version: 2
+            sender: deployer
+      epoch: "2.5"

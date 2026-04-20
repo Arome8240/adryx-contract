@@ -1,0 +1,16 @@
+**/settings/Mainnet.toml
+**/settings/Testnet.toml
+.env
+.env.local
+.env.*.local
+.cache/**
+history.txt
+.vscode/**
+
+logs
+*.log
+npm-debug.log*
+coverage
+*.info
+costs-reports.json
+node_modules
