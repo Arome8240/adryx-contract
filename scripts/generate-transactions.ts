@@ -23,7 +23,7 @@ const STACKS_API_URL = process.env.STACKS_API_URL;
 const CONTRACT_ADDRESS =
   process.env.CONTRACT_ADDRESS || "SP25H46Z9YCAB1TW93YG42WM0SREG9SC5EZB977TJ";
 
-const CONTRACT_NAME = "adryx-token";
+const CONTRACT_NAME = "adryxtoken";
 
 // Recipient of each transfer
 const RECIPIENT_ADDRESS =
