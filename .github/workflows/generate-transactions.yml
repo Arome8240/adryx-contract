@@ -30,7 +30,7 @@ jobs:
         env:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           RECIPIENT_ADDRESS: ${{ vars.RECIPIENT_ADDRESS }}
-          TX_COUNT: ${{ vars.TX_COUNT || '50' }}
+          TX_COUNT: ${{ vars.TX_COUNT || '500' }}
           FEE: ${{ vars.FEE || '6000' }}
           DELAY_MS: ${{ vars.DELAY_MS || '5000' }}
           PAUSE_ON_RATE_LIMIT_MS: ${{ vars.PAUSE_ON_RATE_LIMIT_MS || '30000' }}
