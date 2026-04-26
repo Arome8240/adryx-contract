@@ -10,7 +10,7 @@ A SIP-010 compliant fungible token for the [Adryx](https://adryx.io) decentraliz
 | Symbol     | ADAD               |
 | Decimals   | 6                  |
 | Max Supply | 1,000,000,000 ADAD |
-| Standard   | SIP-010            |
+| Standard   | SIP-010.           |
 
 ## What it's used for
 
